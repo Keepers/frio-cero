@@ -1,0 +1,17 @@
+<ion-view view-title="{{method.title}}">
+  <ion-content class="padding">
+
+    <!-- <p ng-bind-html="method.description"></p> -->
+    <div ng-include src="method.getDescription()"></div>
+
+    <br>
+
+    <div ng-show="method.title == 'Rondas Nocturnas'">
+      <button ui-sref="tab.help" type="submit" class="button button-block button-outline button-positive">
+        Sumate
+      </button>
+      <br>
+    </div>
+
+  </ion-content>
+</ion-view>

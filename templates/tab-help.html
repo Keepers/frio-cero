@@ -1,0 +1,38 @@
+<ion-view view-title="Quiero ayudar!">
+  <ion-content>
+    
+    <div class="list">
+
+      <p class="padding">Si querés formar parte de las Rondas Nocturnas Solidarias sumate y te invitamos a sumarte a algunas de las organizaciones que realizan las rondas: Amigos en el Camino, Sumar Solidario, Caminos Solidarios Argentina, Soledad Cero y Ayuda Urbana.</p>
+      
+      <form name="helpForm" ng-submit="submitForm(helpForm)" novalidate>
+        
+        <label class="item item-input">
+          <span ng-class="{'invalid': invalidName}" class="input-label">Nombre</span>
+          <input ng-model="user.name" name="name" placeholder="Mati" type="text" required>
+        </label>
+        <label class="item item-input">
+          <span ng-class="{'invalid': invalidEmail}" class="input-label">Email</span>
+          <input ng-model="user.email" name="email" placeholder="mati@gmail.com" type="email" required>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Celular</span>
+          <input ng-model="user.cellphone" name="cellphone" placeholder="1550127829" type="number">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Barrio</span>
+          <input ng-model="user.zone" name="zone" placeholder="Villa Ballester" type="text">
+        </label>
+              
+        <div class="padding">
+          <button type="submit" class="button button-block button-outline button-positive">
+            Ayudar
+          </button>
+        </div>
+        
+      </form>
+
+    </div>
+    
+  </ion-content>
+</ion-view>

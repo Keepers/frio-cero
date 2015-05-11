@@ -1,0 +1,18 @@
+<ion-view view-title="C&oacute;mo ayudar?">
+  <ion-content>
+    <ion-list>
+
+      <a ng-repeat="method in methods" 
+         href="#/tab/how/{{method.id}}"
+         class="how-items item menu-item"
+         style="background: url(img/buttons/{{method.id}}.jpg) no-repeat;">
+      </a>
+
+      <!-- <ion-item class="item-icon-right" ng-repeat="method in methods" type="item-text-wrap" href="#/tab/how/{{method.id}}">
+        <h2 ng-bind-html="method.title"></h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item> -->
+
+    </ion-list>
+  </ion-content>
+</ion-view>

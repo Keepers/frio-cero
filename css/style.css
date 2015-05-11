@@ -1,0 +1,66 @@
+/* GENERAL */
+
+.ion-ios-information-outline,
+.ion-ios-information,
+.ion-ios-location-outline,
+.ion-ios-location,
+.ion-ios-people-outline,
+.ion-ios-people,
+.tab-title
+{
+  color: #422A8F;
+}
+
+.loading-container .loading{
+  /* background-color: transparent !important; */
+}
+
+.loading .spinner svg {
+  width: 50px !important;
+  height: 50px !important;
+  stroke: #fff !important;
+  fill: #fff !important;
+}
+
+.tab-item.tab-item-active{
+  border-color: #422A8F !important;
+}
+
+.invalid {
+  color: red !important;
+  font-weight: bold;
+}
+
+/* MENU */
+.menu-item{
+  background-repeat:no-repeat;
+  background-size:contain !important;
+  background-position:center;
+}
+
+/* HOW */
+
+.how-title{
+  color: #fff !important;
+}
+
+.how-items{
+  border: none !important;
+}
+
+/* HOW-DETAIL */
+
+.bold{
+  font-weight: bold;
+}
+
+/* WHERE */
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  height: 100%;
+}
