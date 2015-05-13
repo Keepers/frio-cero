@@ -1,5 +1,4 @@
 /* GENERAL */
-
 .ion-ios-information-outline,
 .ion-ios-information,
 .ion-ios-location-outline,
@@ -11,7 +10,7 @@
   color: #422A8F;
 }
 
-.loading-container .loading{
+.loading-container .loading {
   /* background-color: transparent !important; */
 }
 
@@ -22,7 +21,7 @@
   fill: #fff !important;
 }
 
-.tab-item.tab-item-active{
+.tab-item.tab-item-active {
   border-color: #422A8F !important;
 }
 
@@ -32,7 +31,7 @@
 }
 
 /* MENU */
-.menu-item{
+.menu-item {
   background-repeat:no-repeat;
   background-size:contain !important;
   background-position:center;
@@ -40,17 +39,23 @@
 
 /* HOW */
 
-.how-title{
+.how-title {
   color: #fff !important;
 }
 
-.how-items{
-  border: none !important;
+a.how-items {
+  border: none;
+  margin-top: -4px;
+  padding: 0;
+}
+
+a.how-items img{
+  width: 100%;
 }
 
 /* HOW-DETAIL */
 
-.bold{
+.bold {
   font-weight: bold;
 }
 

@@ -4,8 +4,8 @@
 
       <a ng-repeat="method in methods" 
          href="#/tab/how/{{method.id}}"
-         class="how-items item menu-item"
-         style="background: url(img/buttons/{{method.id}}.jpg) no-repeat;">
+         class="how-items item menu-item">
+         <img ng-src="{{'img/buttons/' + method.id + '.jpg'}}" alt="{{method.id}}">
       </a>
 
       <!-- <ion-item class="item-icon-right" ng-repeat="method in methods" type="item-text-wrap" href="#/tab/how/{{method.id}}">
