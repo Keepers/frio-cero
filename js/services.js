@@ -155,6 +155,15 @@ angular.module('friocero.services', [])
       map = new google.maps.Map(document.getElementById("map"), mapOptions);
       return map;
     },
+    getMarkers: function(){
+      return markers;
+    },
+    deleteMarkers: function(){
+      for(var i = 0; i < markers.length; i++){
+        markers[i].setMap(null);
+      }
+      markers = [];
+    },
     addMarker: function(lat,lng,title,description,id,position){
       
       var marker = null,
