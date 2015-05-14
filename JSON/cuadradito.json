@@ -1,0 +1,10 @@
+[
+  {"id":"1","description":"<b>Colegio Cardenal Copello</b> <br> Nueva York 3433, Devoto. Lun a Vie 8 a 18","lat":"-34.595416","lng":"-58.504837"},
+  {"id":"2","description":"<b>Cisne</b> <br> Av Scalabrini Ortiz 1001. Lun a Vie de 9:30 a 18:30. Sab 9 a 13.","lat":"-34.595055","lng":"-58.431175"},
+  {"id":"3","description":"<b>Hogar Rawson</b> <br> Av. Amancio Alcorta 1402. Lun a Vie de 8 a 14","lat":"-34.635057","lng":"-58.383499"},
+  {"id":"4","description":"<b>Movil World</b> <br> Nivel 3 Shopping Devoto. Quevedo 3365. Todos los dias de 10 a 21.","lat":"-34.611776","lng":"-58.517755"},
+  {"id":"5","description":"<b>Bazar de magia</b> <br> Hipolito Yrigoyen 969. Lun a Vie de 10 a 14 y 14:30 a 19. Sab y Dom de 10 a 13.","lat":"-34.609484","lng":"-58.380275"},
+  {"id":"6","description":"<b>Celulares Satel</b> <br> Av. Segurola 3295, Devoto. Lun a Vie de 9 a 13 y de 16 a 19. Sab de 10 a 13","lat":"-34.606547","lng":"-58.512761"},
+  {"id":"7","description":"<b>Celulares Satel</b> <br> Melincue 3186, Villa del Parque. Lun a Vie de 9 a 13 y de 16 a 19. Sab de 10 a 13","lat":"-34.602816","lng":"-58.493921"},
+  {"id":"8","description":"<b>Celulares Satel</b> <br> Juramento 4874, Villa Urquiza. Lun a Vie de 9 a 13 y de 16 a 19. Sab de 10 a 13","lat":"-34.576265","lng":"-58.480302"}
+]
