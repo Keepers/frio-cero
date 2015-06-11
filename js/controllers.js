@@ -1,7 +1,6 @@
 angular.module('friocero.controllers', [])
 
 .controller('HowCtrl', function($scope, Methods) {
-  alert('hola');
   $scope.methods = Methods.getTitles();
 })
 
