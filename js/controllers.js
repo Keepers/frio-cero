@@ -1,6 +1,7 @@
 angular.module('friocero.controllers', [])
 
 .controller('HowCtrl', function($scope, Methods) {
+  alert('hola');
   $scope.methods = Methods.getTitles();
 })
 
@@ -39,24 +40,24 @@ angular.module('friocero.controllers', [])
         $scope.showAllMakers = function(){
           Map.deleteMarkers();
           for(i = 0; i < rondas.length; i++){
-            Map.addMarker(rondas[i].lat,rondas[i].lng,rondas[i].title,rondas[i].description,rondas[i].id,false);
+            Map.addMarker(rondas[i].lat,rondas[i].lng,rondas[i].title,rondas[i].description,rondas[i].id,'recorrido');
           }
           for(i = 0; i < cuadradito.length; i++){
-            Map.addMarker(cuadradito[i].lat,cuadradito[i].lng,cuadradito[i].title,cuadradito[i].description,cuadradito[i].id,false);
+            Map.addMarker(cuadradito[i].lat,cuadradito[i].lng,cuadradito[i].title,cuadradito[i].description,cuadradito[i].id,'cuadradito');
           }
         };
 
         $scope.showRecorridoMarkers = function(){
           Map.deleteMarkers();
           for(i = 0; i < rondas.length; i++){
-            Map.addMarker(rondas[i].lat,rondas[i].lng,rondas[i].title,rondas[i].description,rondas[i].id,false);
+            Map.addMarker(rondas[i].lat,rondas[i].lng,rondas[i].title,rondas[i].description,rondas[i].id,'recorrido');
           }
         };
 
         $scope.showCuadraditoMarkers = function(){
           Map.deleteMarkers();
           for(i = 0; i < cuadradito.length; i++){
-            Map.addMarker(cuadradito[i].lat,cuadradito[i].lng,cuadradito[i].title,cuadradito[i].description,cuadradito[i].id,false);
+            Map.addMarker(cuadradito[i].lat,cuadradito[i].lng,cuadradito[i].title,cuadradito[i].description,cuadradito[i].id,'cuadradito');
           }
         };
 

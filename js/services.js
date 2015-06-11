@@ -164,7 +164,7 @@ angular.module('friocero.services', [])
       }
       markers = [];
     },
-    addMarker: function(lat,lng,title,description,id,position){
+    addMarker: function(lat,lng,title,description,id,type){
       
       var marker = null,
           myLatlng = new google.maps.LatLng(lat, lng);
@@ -172,23 +172,21 @@ angular.module('friocero.services', [])
       bounds.extend(myLatlng);
       map.fitBounds(bounds);
 
-      if(!position){
-        marker = new google.maps.Marker({
-          position: myLatlng,
-          map: map,
-          animation: google.maps.Animation.DROP,
-          title: title,
-          icon: 'img/marker.png'
-        });
+      var img = null;
+      if(type === 'cuadradito'){
+        img = 'img/marker.png';
       }
-      else{
-        marker = new google.maps.Marker({
-          position: myLatlng,
-          map: map,
-          animation: google.maps.Animation.DROP,
-          title: title
-        });
+      else if(type === 'recorrido'){
+        img = 'img/recorrido.png';
       }
+
+      marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        // animation: google.maps.Animation.DROP,
+        title: 'Marker',
+        icon: img
+      });
 
       marker.infowindow = new google.maps.InfoWindow({
         content: description
@@ -226,12 +224,12 @@ angular.module('friocero.services', [])
     locate: function() {
       var deferred = $q.defer();
       if(functions.hasPosition()){
-        functions.addMarker(position.latitude,position.longitude,'Estas aca','Estas aca',-1,true);
+        functions.addMarker(position.latitude,position.longitude,'Estas aca','Estas aca',-1,null);
         deferred.resolve();
       }
       else{
         functions.getPosition().then(function(){
-          functions.addMarker(position.latitude,position.longitude,'Estas aca','Estas aca',-1,true);
+          functions.addMarker(position.latitude,position.longitude,'Estas aca','Estas aca',-1,null);
           deferred.resolve();
         });
       }

@@ -6,5 +6,14 @@
   {"id":"5","description":"<b>Bazar de magia</b> <br> Hipolito Yrigoyen 969. Lun a Vie de 10 a 14 y 14:30 a 19. Sab y Dom de 10 a 13.","lat":"-34.609484","lng":"-58.380275"},
   {"id":"6","description":"<b>Celulares Satel</b> <br> Av. Segurola 3295, Devoto. Lun a Vie de 9 a 13 y de 16 a 19. Sab de 10 a 13","lat":"-34.606547","lng":"-58.512761"},
   {"id":"7","description":"<b>Celulares Satel</b> <br> Melincue 3186, Villa del Parque. Lun a Vie de 9 a 13 y de 16 a 19. Sab de 10 a 13","lat":"-34.602816","lng":"-58.493921"},
-  {"id":"8","description":"<b>Celulares Satel</b> <br> Juramento 4874, Villa Urquiza. Lun a Vie de 9 a 13 y de 16 a 19. Sab de 10 a 13","lat":"-34.576265","lng":"-58.480302"}
+  {"id":"8","description":"<b>Celulares Satel</b> <br> Juramento 4874, Villa Urquiza. Lun a Vie de 9 a 13 y de 16 a 19. Sab de 10 a 13","lat":"-34.576265","lng":"-58.480302"},
+  {"id":"9","description":"<b>Puerto Pollito</b> <br> Ciudad de la Paz, 1972, Belgrano. Lun a Vie de 10 a 20.","lat":"-34.604440","lng":"-58.421092"},
+  {"id":"10","description":"<b>Scouts Lana</b> <br> Junin 1445, Palermo. Sab de 15 a 19.","lat":"-34.591360","lng":"-58.395438"},
+  {"id":"11","description":"<b>Boca Jrs</b> <br> Brandsen 805, La Boca","lat":"-34.636636","lng":"-58.364734"},
+  {"id":"12","description":"<b>River Plate</b> <br> Av. Figueroa Alcorta 7597, Nuñez. Dejar en seguridad (entrada principal)","lat":"-34.546637","lng":"-58.449665"},
+  {"id":"13","description":"<b>CUI</b> <br> Junin 222. Lun a Vie de 9 a 21. Sab de 9 a 15","lat":"-34.606882","lng":"-58.396473"},
+  {"id":"14","description":"<b>Fruteria y verduleria M&V</b> <br> Billinghurst 544. Lun a Vie de 11 a 20:30.","lat":"-34.603453","lng":"-58.415639"},
+  {"id":"15","description":"<b>Armonia Pilates</b> <br> Av Medrano 525, Almagro. Lun a Vie de 10 a 21.","lat":"-34.604440","lng":"-58.421092"},
+  {"id":"16","description":"<b>Sede Racing Capital</b> <br> Nogoya 3061, Villa del Parque. Lun a Vie de 10 a 20 y Sab de 10 a 15.","lat":"-34.602710","lng":"-58.491663"},
+  {"id":"17","description":"<b>Merceria Lola</b> <br> Soldado de la Frontera 5419, Villa Lugano. Edificio 51 local A y B. Lun a Vie de 10 a 14 y 18 a 20:30, Sab de 10 a 13.","lat":"-34.687533","lng":"-58.462008"}
 ]
