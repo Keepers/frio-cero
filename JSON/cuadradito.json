@@ -15,5 +15,13 @@
   {"id":"14","description":"<b>Fruteria y verduleria M&V</b> <br> Billinghurst 544. Lun a Vie de 11 a 20:30.","lat":"-34.603453","lng":"-58.415639"},
   {"id":"15","description":"<b>Armonia Pilates</b> <br> Av Medrano 525, Almagro. Lun a Vie de 10 a 21.","lat":"-34.604440","lng":"-58.421092"},
   {"id":"16","description":"<b>Sede Racing Capital</b> <br> Nogoya 3061, Villa del Parque. Lun a Vie de 10 a 20 y Sab de 10 a 15.","lat":"-34.602710","lng":"-58.491663"},
-  {"id":"17","description":"<b>Merceria Lola</b> <br> Soldado de la Frontera 5419, Villa Lugano. Edificio 51 local A y B. Lun a Vie de 10 a 14 y 18 a 20:30, Sab de 10 a 13.","lat":"-34.687533","lng":"-58.462008"}
+  {"id":"17","description":"<b>Merceria Lola</b> <br> Soldado de la Frontera 5419, Villa Lugano. Edificio 51 local A y B. Lun a Vie de 10 a 14 y 18 a 20:30, Sab de 10 a 13.","lat":"-34.687533","lng":"-58.462008"},
+  {"id":"18","description":"<b>Celulares Satel</b> <br> Ejercito de los Andes 1492, Jose Ingenieros, 3 de Febrero. Lun a Mie de 9 a 13 y 16 a 19.","lat":"-34.6198506","lng":"-58.5341835"},
+  {"id":"19","description":"<b>Romeo y Julieta</b> <br> Ruta 202, Don Torcuato. Lun a Vie de 10 a 13 y 16:30 a 20. Sab de 10 a 13","lat":"-34.499724","lng":"-58.641128"},
+  {"id":"20","description":"<b>Movil World</b> <br> Catan Shopping, Ruta 3km 29 o J.M de Rosas 14457, Gonzales Catan. Todos los dias de 10 a 21","lat":"-34.764146","lng":"-58.617866"},
+  {"id":"21","description":"<b>Kinderland Juguetes</b> <br> Av. de Mayo 315, Ramos Mejia. 4654-1934. Lun a Sab de 9:30 a 13:40 y de 16:30 a 20:30","lat":"-34.643766","lng":"-58.565221"},
+  {"id":"22","description":"<b>Kinderland Juguetes</b> <br> Arias 2477, Castelar. 4628-2111. Lun a Sab de 9:30 a 13:40 y de 16:30 a 20:30","lat":"-34.65084","lng":"-58.643798"},
+  {"id":"23","description":"<b>Kinderland Juguetes</b> <br> Pte Peron 9453, Parque Leloir. 4621-9968. Todos los dias de 10 a 13:30 y de 16:30 a 21","lat":"-34.6314359","lng":"-58.6718799"},
+  {"id":"24","description":"<b>Kinderland Juguetes</b> <br> Gorriti 1078, Fco Alvarez. 0237-483-0300. Todos los dias de 10 a 13:30 y de 16:30 a 21","lat":"-34.7015524","lng":"-58.5164718"},
+  {"id":"25","description":"<b>Kinderland Juguetes</b> <br> Mariano Castex 365, Canning. 4389-3238. Todos los dias de 10 a 13:30 y de 16:30 a 21","lat":"-34.643766","lng":"-58.565221"}
 ]
