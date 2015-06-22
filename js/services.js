@@ -174,7 +174,7 @@ angular.module('friocero.services', [])
 
       var img = null;
       if(type === 'cuadradito'){
-        img = 'img/marker.png';
+        img = 'img/cuadradito.png';
       }
       else if(type === 'recorrido'){
         img = 'img/recorrido.png';

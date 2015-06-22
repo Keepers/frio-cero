@@ -30,6 +30,10 @@
   font-weight: bold;
 }
 
+.italic{
+  font-style: italic;
+}
+
 /* MENU */
 .menu-item {
   background-repeat:no-repeat;
