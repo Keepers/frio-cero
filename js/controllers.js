@@ -2,12 +2,6 @@ angular.module('friocero.controllers', [])
 
 .controller('HowCtrl', function($scope, $ionicScrollDelegate, Methods) {
   $scope.methods = Methods.getTitles();
-
-  // console.log(document.getElementsByTagName('ion-content')[0].clientHeight);
-  // $scope.imgHeight = Math.round(document.getElementsByTagName('ion-content')[0].clientHeight / $scope.methods.length);
-  // console.log($scope.imgHeight);
-  // $ionicScrollDelegate.resize();
-
 })
 
 .controller('HowDetailCtrl', function($scope, $stateParams, Methods) {
