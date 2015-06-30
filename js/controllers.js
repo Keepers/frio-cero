@@ -28,9 +28,17 @@ angular.module('friocero.controllers', [])
           //TODO
         }
 
-        $http.get(baseUrl+'/JSON/rondas.json').then(function(json) {
+        // $http.get(baseUrl+'/JSON/rondas.json').then(function(json) {
+        //   rondas = json.data;
+        //   return $http.get(baseUrl+'/JSON/cuadradito.json');
+        // }).then(function(json){
+        //     cuadradito = json.data;
+        //     $scope.showAllMakers();
+        // });
+
+        $http.get('JSON/rondas.json').then(function(json) {
           rondas = json.data;
-          return $http.get(baseUrl+'/JSON/cuadradito.json');
+          return $http.get('JSON/cuadradito.json');
         }).then(function(json){
             cuadradito = json.data;
             $scope.showAllMakers();
